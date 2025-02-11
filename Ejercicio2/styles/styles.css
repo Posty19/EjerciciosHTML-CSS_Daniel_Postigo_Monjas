@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.galeria{
+    padding: 10px 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 10px;
+}
+.galeria__img{
+    max-width: 80%;
+}
