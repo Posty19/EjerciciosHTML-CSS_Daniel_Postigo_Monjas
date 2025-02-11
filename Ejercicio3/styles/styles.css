@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+}
+.nav-bar__item{
+    list-style-type: none;
+}
