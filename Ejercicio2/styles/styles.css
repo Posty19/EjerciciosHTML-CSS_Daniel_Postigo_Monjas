@@ -13,3 +13,16 @@ body{
 .galeria__img{
     max-width: 80%;
 }
+
+@media screen and (min-width: 1000px) {
+    .galeria{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media screen and (min-width: 1700px) {
+    .galeria{
+        grid-template-columns: repeat(5,1fr);
+    }
+}
+
